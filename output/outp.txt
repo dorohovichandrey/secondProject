@@ -1,0 +1,39 @@
+----------------------Automobiles----------------------
+Car{vehicleId=1, manufacturer=BMW, year=2010, tariffDollarByKm=3, tonnage=5, passengerCapacity=4, fuelConsumption=7, fuelType=PETROL, attachable=null, hasBabySeat=true}
+Bus{vehicleId=2, manufacturer=AUDI, year=2004, tariffDollarByKm=2, tonnage=5, passengerCapacity=20, fuelConsumption=10, fuelType=PETROL, hasSecondFloor=true}
+Truck{vehicleId=3, manufacturer=AUDI, year=2002, tariffDollarByKm=2, tonnage=20, passengerCapacity=2, fuelConsumption=15, fuelType=PETROL attachable=null, hasSleepingPlace=false}
+Car{vehicleId=4, manufacturer=CITROEN, year=2002, tariffDollarByKm=3, tonnage=3, passengerCapacity=5, fuelConsumption=5, fuelType=DIESEL, attachable=null, hasBabySeat=true}
+Bus{vehicleId=5, manufacturer=AUDI, year=2004, tariffDollarByKm=3, tonnage=5, passengerCapacity=20, fuelConsumption=10, fuelType=PETROL, hasSecondFloor=true}
+Truck{vehicleId=6, manufacturer=AUDI, year=2002, tariffDollarByKm=2, tonnage=5, passengerCapacity=3, fuelConsumption=10, fuelType=DIESEL attachable=null, hasSleepingPlace=false}
+Truck{vehicleId=9, manufacturer=AUDI, year=2007, tariffDollarByKm=2, tonnage=5, passengerCapacity=3, fuelConsumption=10, fuelType=PETROL attachable=null, hasSleepingPlace=true}
+Car{vehicleId=10, manufacturer=TESLA, year=2015, tariffDollarByKm=5, tonnage=2, passengerCapacity=5, fuelConsumption=2, fuelType=ELECTRIC_POWER, attachable=null, hasBabySeat=true}
+Car{vehicleId=11, manufacturer=TESLA, year=2016, tariffDollarByKm=6, tonnage=2, passengerCapacity=5, fuelConsumption=2, fuelType=ELECTRIC_POWER, attachable=null, hasBabySeat=false}
+Car{vehicleId=13, manufacturer=VOLKSWAGEN, year=2016, tariffDollarByKm=2, tonnage=3, passengerCapacity=5, fuelConsumption=2, fuelType=ELECTRIC_POWER, attachable=null, hasBabySeat=true}
+----------------------Trailers----------------------
+CargoTrailer{vehicleId=14, manufacturer=AUDI, year=2004, tariffDollarByKm=2, tonnage=5, passengerCapacity=0, material=METAL, hasLifter=true}
+PassengerTrailer{vehicleId=17, manufacturer=AUDI, year=2004, tariffDollarByKm=2, tonnage=1, passengerCapacity=4, material=WOODEN, hasKitchen=true, hasShower=false}
+CargoTrailer{vehicleId=19, manufacturer=OPEL, year=2004, tariffDollarByKm=2, tonnage=5, passengerCapacity=0, material=WOODEN, hasLifter=true}
+PassengerTrailer{vehicleId=22, manufacturer=TOYOTA, year=2009, tariffDollarByKm=2, tonnage=2, passengerCapacity=2, material=WOODEN, hasKitchen=true, hasShower=false}
+----------------------Vehicles price----------------------
+261540
+----------------------Automobiles sorted by fuel consumption----------------------
+Car{vehicleId=10, manufacturer=TESLA, year=2015, tariffDollarByKm=5, tonnage=2, passengerCapacity=5, fuelConsumption=2, fuelType=ELECTRIC_POWER, attachable=null, hasBabySeat=true}
+Car{vehicleId=11, manufacturer=TESLA, year=2016, tariffDollarByKm=6, tonnage=2, passengerCapacity=5, fuelConsumption=2, fuelType=ELECTRIC_POWER, attachable=null, hasBabySeat=false}
+Car{vehicleId=13, manufacturer=VOLKSWAGEN, year=2016, tariffDollarByKm=2, tonnage=3, passengerCapacity=5, fuelConsumption=2, fuelType=ELECTRIC_POWER, attachable=null, hasBabySeat=true}
+Car{vehicleId=4, manufacturer=CITROEN, year=2002, tariffDollarByKm=3, tonnage=3, passengerCapacity=5, fuelConsumption=5, fuelType=DIESEL, attachable=null, hasBabySeat=true}
+Car{vehicleId=1, manufacturer=BMW, year=2010, tariffDollarByKm=3, tonnage=5, passengerCapacity=4, fuelConsumption=7, fuelType=PETROL, attachable=null, hasBabySeat=true}
+Bus{vehicleId=2, manufacturer=AUDI, year=2004, tariffDollarByKm=2, tonnage=5, passengerCapacity=20, fuelConsumption=10, fuelType=PETROL, hasSecondFloor=true}
+Bus{vehicleId=5, manufacturer=AUDI, year=2004, tariffDollarByKm=3, tonnage=5, passengerCapacity=20, fuelConsumption=10, fuelType=PETROL, hasSecondFloor=true}
+Truck{vehicleId=6, manufacturer=AUDI, year=2002, tariffDollarByKm=2, tonnage=5, passengerCapacity=3, fuelConsumption=10, fuelType=DIESEL attachable=null, hasSleepingPlace=false}
+Truck{vehicleId=9, manufacturer=AUDI, year=2007, tariffDollarByKm=2, tonnage=5, passengerCapacity=3, fuelConsumption=10, fuelType=PETROL attachable=null, hasSleepingPlace=true}
+Truck{vehicleId=3, manufacturer=AUDI, year=2002, tariffDollarByKm=2, tonnage=20, passengerCapacity=2, fuelConsumption=15, fuelType=PETROL attachable=null, hasSleepingPlace=false}
+----------------------Search (automobile) by tonnage={3,8} passengerCapacity={4,8}----------------------
+Car{vehicleId=1, manufacturer=BMW, year=2010, tariffDollarByKm=3, tonnage=5, passengerCapacity=4, fuelConsumption=7, fuelType=PETROL, attachable=null, hasBabySeat=true}
+Bus{vehicleId=2, manufacturer=AUDI, year=2004, tariffDollarByKm=2, tonnage=5, passengerCapacity=20, fuelConsumption=10, fuelType=PETROL, hasSecondFloor=true}
+Car{vehicleId=4, manufacturer=CITROEN, year=2002, tariffDollarByKm=3, tonnage=3, passengerCapacity=5, fuelConsumption=5, fuelType=DIESEL, attachable=null, hasBabySeat=true}
+Bus{vehicleId=5, manufacturer=AUDI, year=2004, tariffDollarByKm=3, tonnage=5, passengerCapacity=20, fuelConsumption=10, fuelType=PETROL, hasSecondFloor=true}
+Car{vehicleId=13, manufacturer=VOLKSWAGEN, year=2016, tariffDollarByKm=2, tonnage=3, passengerCapacity=5, fuelConsumption=2, fuelType=ELECTRIC_POWER, attachable=null, hasBabySeat=true}
+----------------------Alternative search (automobile plus trailer) by tonnage={3,8} passengerCapacity={4,8}----------------------
+Car{vehicleId=1, manufacturer=BMW, year=2010, tariffDollarByKm=3, tonnage=5, passengerCapacity=4, fuelConsumption=7, fuelType=PETROL, attachable=PassengerTrailer{vehicleId=17, manufacturer=AUDI, year=2004, tariffDollarByKm=2, tonnage=1, passengerCapacity=4, material=WOODEN, hasKitchen=true, hasShower=false}, hasBabySeat=true}
+Truck{vehicleId=6, manufacturer=AUDI, year=2002, tariffDollarByKm=2, tonnage=5, passengerCapacity=3, fuelConsumption=10, fuelType=DIESEL attachable=PassengerTrailer{vehicleId=17, manufacturer=AUDI, year=2004, tariffDollarByKm=2, tonnage=1, passengerCapacity=4, material=WOODEN, hasKitchen=true, hasShower=false}, hasSleepingPlace=false}
+Truck{vehicleId=9, manufacturer=AUDI, year=2007, tariffDollarByKm=2, tonnage=5, passengerCapacity=3, fuelConsumption=10, fuelType=PETROL attachable=PassengerTrailer{vehicleId=17, manufacturer=AUDI, year=2004, tariffDollarByKm=2, tonnage=1, passengerCapacity=4, material=WOODEN, hasKitchen=true, hasShower=false}, hasSleepingPlace=true}

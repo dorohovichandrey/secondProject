@@ -1,0 +1,20 @@
+17:02:52.590 [main] ERROR by.bsu.dorohovich.ooptask.create.VehiclesFromFileCreator createVehicleFromFile - by.bsu.dorohovich.ooptask.exception.WrongArgumentException: tarrifDollarByKm=1
+17:02:52.590 [main] WARN  by.bsu.dorohovich.ooptask.create.VehiclesFromFileCreator createVehiclesList - Vehicle is not created
+17:02:52.606 [main] ERROR by.bsu.dorohovich.ooptask.create.VehiclesFromFileCreator createVehicleFromFile - by.bsu.dorohovich.ooptask.exception.WrongArgumentException: tarrifDollarByKm=1
+17:02:52.606 [main] WARN  by.bsu.dorohovich.ooptask.create.VehiclesFromFileCreator createVehiclesList - Vehicle is not created
+17:02:52.606 [main] ERROR by.bsu.dorohovich.ooptask.create.VehiclesFromFileCreator createVehicleFromFile - by.bsu.dorohovich.ooptask.exception.WrongArgumentException: passenger trailers tonnage shoud be lower than 3, tonnage=5
+17:02:52.606 [main] WARN  by.bsu.dorohovich.ooptask.create.VehiclesFromFileCreator createVehiclesList - Vehicle is not created
+17:02:52.606 [main] ERROR by.bsu.dorohovich.ooptask.create.VehiclesFromFileCreator createVehicleFromFile - by.bsu.dorohovich.ooptask.exception.WrongArgumentException: cargo trailers can't transfer passengers, passengerCapacity=1
+17:02:52.606 [main] WARN  by.bsu.dorohovich.ooptask.create.VehiclesFromFileCreator createVehiclesList - Vehicle is not created
+17:02:52.606 [main] ERROR by.bsu.dorohovich.ooptask.create.VehiclesFromFileCreator createVehicleFromFile - by.bsu.dorohovich.ooptask.exception.WrongArgumentException: passangerCapacity=-3
+17:02:52.606 [main] WARN  by.bsu.dorohovich.ooptask.create.VehiclesFromFileCreator createVehiclesList - Vehicle is not created
+17:02:52.606 [main] ERROR by.bsu.dorohovich.ooptask.create.VehiclesFromFileCreator createVehicleFromFile - by.bsu.dorohovich.ooptask.exception.WrongArgumentException: year=1998
+17:02:52.606 [main] WARN  by.bsu.dorohovich.ooptask.create.VehiclesFromFileCreator createVehiclesList - Vehicle is not created
+17:02:52.606 [main] ERROR by.bsu.dorohovich.ooptask.taxistation.VehiclePark addVehicle - by.bsu.dorohovich.ooptask.exception.IdException: id=5 is already used
+17:02:52.606 [main] WARN  by.bsu.dorohovich.ooptask.taxistation.VehiclePark addVehicle - Vehicle is not added  to taxistation
+17:02:52.606 [main] ERROR by.bsu.dorohovich.ooptask.taxistation.VehiclePark addVehicle - by.bsu.dorohovich.ooptask.exception.IdException: id=5 is already used
+17:02:52.606 [main] WARN  by.bsu.dorohovich.ooptask.taxistation.VehiclePark addVehicle - Vehicle is not added  to taxistation
+17:02:52.980 [main] ERROR by.bsu.dorohovich.ooptask.taxistation.management.Searcher searchAutoPlusTrailerByTonnageAndPassengerCapacity - by.bsu.dorohovich.ooptask.exception.AttachDetachException: too heavy trailer for car
+17:02:52.980 [main] ERROR by.bsu.dorohovich.ooptask.taxistation.management.Searcher searchAutoPlusTrailerByTonnageAndPassengerCapacity - by.bsu.dorohovich.ooptask.exception.AttachDetachException: too heavy trailer for car
+17:02:52.980 [main] ERROR by.bsu.dorohovich.ooptask.taxistation.management.Searcher searchAutoPlusTrailerByTonnageAndPassengerCapacity - by.bsu.dorohovich.ooptask.exception.AttachDetachException: too heavy trailer for car
+17:02:52.980 [main] ERROR by.bsu.dorohovich.ooptask.taxistation.management.Searcher searchAutoPlusTrailerByTonnageAndPassengerCapacity - by.bsu.dorohovich.ooptask.exception.AttachDetachException: too heavy trailer for car
